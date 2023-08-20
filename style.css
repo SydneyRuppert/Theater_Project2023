@@ -1,0 +1,197 @@
+*{
+    /* border: 1px solid red; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    background-color:black;
+}
+
+.flexbox-container{
+    display: flex;
+    background-color: white;
+    border-bottom: solid gray;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.flexbox-item{
+    width: 400px;
+    margin:5px;
+    height: 300px;
+}
+
+#Features{
+    background-color: white;
+}
+.flexbox-header{
+    text-align: center;
+    border: 3px solid gray;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: orange;
+  }
+ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height:100%;
+}
+
+.nav-item {
+    margin:10px;
+    width:100%;
+    height:100%;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(218, 64, 198);
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.showfeats {
+    z-index: 1;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px black,
+                1px 1px 0 black,
+                1px -1px 0 black,
+                -1px -1px 0 black;
+
+
+}
+.actors-header {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: flex-end;
+
+}
+
+footer {
+    margin-bottom: 0px;
+}
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    /* margin-bottom: 20px; */
+    justify-content: space-evenly;
+}
+
+.map {
+    padding:2%;
+    padding-left: 100px;
+    width: 250px;
+
+}
+
+.maping{
+    width:250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width:  25%;
+    font:0.6em;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column; 
+    width:  25%;
+    font:0.6em;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column; 
+    width:  25%;
+    font:0.6em;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.foothead {
+    font-size: 2em;
+
+}
+
+.tiny {
+    margin:3px;
+}
